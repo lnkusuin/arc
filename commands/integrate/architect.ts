@@ -45,6 +45,7 @@ export default async (_path: string) => {
             body: {'ja': item.content.body },
             category: {'ja': 'Portal' },
             design: {'ja': attributes?.design },
+            source: {'ja': attributes?.source },
         }
     }
 
