@@ -5,7 +5,8 @@
   "main": "dist/index.js",
   "bin": "bin/index.js",
   "scripts": {
-    "tsc": "tsc"
+    "tsc": "tsc",
+    "run": "node dist/index.js integrate catalog ./docs/catalog.yaml"
   },
   "keywords": [],
   "author": "",
