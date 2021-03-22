@@ -23,6 +23,6 @@
     "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "ts-node": "^9.1.1"
+    "ts-node": "9.1.1"
   }
 }
