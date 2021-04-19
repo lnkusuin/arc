@@ -12,7 +12,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "^14.14.34",
+    "@types/node": "^14.14.35",
     "chalk": "^4.1.0",
     "commander": "^7.1.0",
     "contentful-management": "^7.9.0",
