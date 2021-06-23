@@ -112,6 +112,16 @@ export default {
         "validations": [],
         "disabled": false,
         "omitted": false
+    },
+    {
+        "id": "stakeholders",
+        "name": "stakeholders",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": [],
+        "disabled": false,
+        "omitted": false
     }
 ],
     "sys": {
@@ -125,7 +135,7 @@ export default {
     "id": "catalog",
         "type": "ContentType",
         "createdAt": "2021-03-15T01:38:21.025Z",
-        "updatedAt": "2021-06-23T03:01:18.014Z",
+        "updatedAt": "2021-06-23T05:24:49.304Z",
         "environment": {
         "sys": {
             "id": "master",
@@ -133,8 +143,8 @@ export default {
                 "linkType": "Environment"
         }
     },
-    "publishedVersion": 6,
-        "publishedAt": "2021-06-23T03:01:18.014Z",
+    "publishedVersion": 8,
+        "publishedAt": "2021-06-23T05:24:49.304Z",
         "firstPublishedAt": "2021-03-15T01:38:22.022Z",
         "createdBy": {
         "sys": {
@@ -150,8 +160,8 @@ export default {
                 "id": "5PLNT8Ib1JRYSZJBuXbEDH"
         }
     },
-    "publishedCounter": 3,
-        "version": 7,
+    "publishedCounter": 4,
+        "version": 9,
         "publishedBy": {
         "sys": {
             "type": "Link",

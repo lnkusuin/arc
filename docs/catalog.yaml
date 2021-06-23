@@ -7,10 +7,10 @@ effect: |
 workload: |
   工数のテキスト
 order: 'https://www.google.co.jp/'
-content_type: catalog
+stakeholders: system
 context: Google Products > GCP
 status: wip
-pined: true
+pined: false
 resources:
   - name: ソースコード
     link: https://github.com/inkusu/arc

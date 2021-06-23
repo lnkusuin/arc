@@ -31,6 +31,7 @@ export default async (_path: string) => {
             goal: {'ja': catalogData.goal },
             effect: {'ja': catalogData.effect },
             workload: {'ja': catalogData.workload },
+            stakeholders: {'ja': catalogData.stakeholders },
             order: {'ja': catalogData.order },
             status: {'ja': catalogData.status },
             pined: {'ja': catalogData.pined },

@@ -1,6 +1,6 @@
 {
   "name": "arc",
-  "version": "v0.0.3",
+  "version": "v0.0.4",
   "description": "",
   "main": "dist/index.js",
   "bin": "bin/index.js",
