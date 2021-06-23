@@ -1,0 +1,21 @@
+id: 1DJdxn0WLpH1scCK25wO29
+title: Arc Test Catalog
+goal: |
+  ゴールのテキスト
+effect: |
+  影響のテキスト
+workload: |
+  工数のテキスト
+order: 'https://www.google.co.jp/'
+content_type: catalog
+context: Google Products > GCP
+status: wip
+pined: true
+resources:
+  - name: ソースコード
+    link: https://github.com/inkusu/arc
+contents:
+  # Overview
+  - id: 79JGL5AGLyzOg8lPU4iVkY
+    name: テスト資料
+    depth: 1

@@ -1,12 +1,14 @@
 {
   "name": "arc",
-  "version": "1.0.0",
+  "version": "v0.0.3",
   "description": "",
   "main": "dist/index.js",
   "bin": "bin/index.js",
   "scripts": {
     "tsc": "tsc",
-    "run": "node dist/index.js integrate catalog ./docs/catalog.yaml"
+    "run:catalog": "node -r dotenv/config dist/index.js integrate catalog ./docs/catalog.yaml",
+    "run:architect": "node -r dotenv/config dist/index.js integrate architect ./docs/README.md",
+    "run:uuid": "node -r dotenv/config dist/index.js uuid"
   },
   "keywords": [],
   "author": "",
@@ -23,6 +25,7 @@
     "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "ts-node": "10.0.0"
+    "ts-node": "10.0.0",
+    "dotenv-cli": "4.0.0"
   }
 }

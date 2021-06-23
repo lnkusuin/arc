@@ -1,4 +1,8 @@
-export default [
+export default {
+    "name": "Catalog",
+    "description": "カタログ資料の管理",
+    "displayField": "title",
+    "fields": [
     {
         "id": "id",
         "name": "id",
@@ -60,6 +64,26 @@ export default [
         "omitted": false
     },
     {
+        "id": "status",
+        "name": "status",
+        "type": "Symbol",
+        "localized": false,
+        "required": false,
+        "validations": [],
+        "disabled": false,
+        "omitted": false
+    },
+    {
+        "id": "pined",
+        "name": "pined",
+        "type": "Boolean",
+        "localized": false,
+        "required": false,
+        "validations": [],
+        "disabled": false,
+        "omitted": false
+    },
+    {
         "id": "resources",
         "name": "resources",
         "type": "Object",
@@ -89,4 +113,51 @@ export default [
         "disabled": false,
         "omitted": false
     }
-]
+],
+    "sys": {
+    "space": {
+        "sys": {
+            "type": "Link",
+                "linkType": "Space",
+                "id": "n9qt9u95vzi0"
+        }
+    },
+    "id": "catalog",
+        "type": "ContentType",
+        "createdAt": "2021-03-15T01:38:21.025Z",
+        "updatedAt": "2021-06-23T03:01:18.014Z",
+        "environment": {
+        "sys": {
+            "id": "master",
+                "type": "Link",
+                "linkType": "Environment"
+        }
+    },
+    "publishedVersion": 6,
+        "publishedAt": "2021-06-23T03:01:18.014Z",
+        "firstPublishedAt": "2021-03-15T01:38:22.022Z",
+        "createdBy": {
+        "sys": {
+            "type": "Link",
+                "linkType": "User",
+                "id": "5PLNT8Ib1JRYSZJBuXbEDH"
+        }
+    },
+    "updatedBy": {
+        "sys": {
+            "type": "Link",
+                "linkType": "User",
+                "id": "5PLNT8Ib1JRYSZJBuXbEDH"
+        }
+    },
+    "publishedCounter": 3,
+        "version": 7,
+        "publishedBy": {
+        "sys": {
+            "type": "Link",
+                "linkType": "User",
+                "id": "5PLNT8Ib1JRYSZJBuXbEDH"
+        }
+    }
+}
+}
