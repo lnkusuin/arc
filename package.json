@@ -16,7 +16,7 @@
   "dependencies": {
     "@types/node": "^14.14.34",
     "chalk": "^4.1.0",
-    "commander": "^7.1.0",
+    "commander": "^8.0.0",
     "contentful-management": "^7.9.0",
     "front-matter": "^4.0.2",
     "glob": "^7.1.6",
