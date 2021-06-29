@@ -14,6 +14,8 @@ pined: false
 resources:
   - name: ソースコード
     link: https://github.com/inkusu/arc
+  - name: チケット
+    link: https://github.com/inkusu/arc/issues
 contents:
   # Overview
   - id: 79JGL5AGLyzOg8lPU4iVkY
