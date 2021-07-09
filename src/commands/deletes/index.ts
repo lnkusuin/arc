@@ -1,4 +1,4 @@
-import program from "../../index"
+import program from '../../index'
 import {getEnv} from "../../api/contentful";
 import {sleep} from "../../misc/common";
 

@@ -6,8 +6,11 @@
   "bin": "bin/index.js",
   "scripts": {
     "tsc": "tsc",
+    "posttsc": "copyfiles -u 1 src/**/*.md src/**/*.yml dist/",
     "run:catalog": "node -r dotenv/config dist/index.js integrate catalog ./docs/catalog.yaml",
     "run:architect": "node -r dotenv/config dist/index.js integrate architect ./docs/README.md",
+    "run:create:architect": "node -r dotenv/config dist/index.js ct architect",
+    "run:create:catalog": "node -r dotenv/config dist/index.js ct catalog",
     "run:uuid": "node -r dotenv/config dist/index.js uuid"
   },
   "keywords": [],
@@ -18,6 +21,7 @@
     "chalk": "^4.1.0",
     "commander": "^8.0.0",
     "contentful-management": "^7.9.0",
+    "ejs": "^3.1.6",
     "front-matter": "^4.0.2",
     "glob": "^7.1.6",
     "typescript": "^4.2.3",
@@ -25,7 +29,9 @@
     "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "ts-node": "10.0.0",
-    "dotenv-cli": "4.0.0"
+    "@types/ejs": "^3.0.7",
+    "copyfiles": "^2.4.1",
+    "dotenv-cli": "4.0.0",
+    "ts-node": "10.0.0"
   }
 }

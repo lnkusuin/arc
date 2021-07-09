@@ -40,42 +40,29 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 var index_1 = __importDefault(require("../../index"));
-var contentful_1 = require("../../api/contentful");
-var common_1 = require("../../misc/common");
-index_1.default
-    .command('deletes')
-    .action(function () { return __awaiter(void 0, void 0, void 0, function () {
-    var contentfulEnv;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0: return [4 /*yield*/, contentful_1.getEnv()];
-            case 1:
-                contentfulEnv = _a.sent();
-                contentfulEnv.getEntries().then(function (entries) {
-                    entries.items.forEach(function (entry) {
-                        return __awaiter(this, void 0, void 0, function () {
-                            return __generator(this, function (_a) {
-                                switch (_a.label) {
-                                    case 0:
-                                        console.log(entry.fields.title);
-                                        console.log('削除');
-                                        return [4 /*yield*/, common_1.sleep(1000)];
-                                    case 1:
-                                        _a.sent();
-                                        return [4 /*yield*/, entry.unpublish()];
-                                    case 2:
-                                        _a.sent();
-                                        return [4 /*yield*/, entry.delete()];
-                                    case 3:
-                                        _a.sent();
-                                        return [2 /*return*/];
-                                }
-                            });
-                        });
-                    });
-                });
+var architect_1 = __importDefault(require("./architect"));
+var catalog_1 = __importDefault(require("./catalog"));
+index_1.default.command('ct <template_type>')
+    .description('create a template with template_type')
+    .action(function (template_type) { return __awaiter(void 0, void 0, void 0, function () {
+    var _a;
+    return __generator(this, function (_b) {
+        switch (_b.label) {
+            case 0:
+                _a = template_type;
+                switch (_a) {
+                    case 'architect': return [3 /*break*/, 1];
+                    case 'catalog': return [3 /*break*/, 3];
+                }
+                return [3 /*break*/, 5];
+            case 1: return [4 /*yield*/, architect_1.default()];
+            case 2: return [2 /*return*/, _b.sent()];
+            case 3: return [4 /*yield*/, catalog_1.default()];
+            case 4: return [2 /*return*/, _b.sent()];
+            case 5:
+                console.error('template_typeは`architect` か `catalog` を指定ください。');
                 return [2 /*return*/];
         }
     });
 }); });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY29tbWFuZHMvZGVsZXRlcy9pbmRleC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLHNEQUFpQztBQUNqQyxtREFBNEM7QUFDNUMsNENBQXdDO0FBRXhDLGVBQU87S0FDRixPQUFPLENBQUMsU0FBUyxDQUFDO0tBQ2xCLE1BQU0sQ0FBQzs7OztvQkFDa0IscUJBQU0sbUJBQU0sRUFBRSxFQUFBOztnQkFBOUIsYUFBYSxHQUFHLFNBQWM7Z0JBRXBDLGFBQWEsQ0FBQyxVQUFVLEVBQUUsQ0FBQyxJQUFJLENBQUMsVUFBQSxPQUFPO29CQUNuQyxPQUFPLENBQUMsS0FBSyxDQUFDLE9BQU8sQ0FBQyxVQUFnQixLQUFLOzs7Ozt3Q0FDdkMsT0FBTyxDQUFDLEdBQUcsQ0FBQyxLQUFLLENBQUMsTUFBTSxDQUFDLEtBQUssQ0FBQyxDQUFBO3dDQUMvQixPQUFPLENBQUMsR0FBRyxDQUFDLElBQUksQ0FBQyxDQUFBO3dDQUVqQixxQkFBTSxjQUFLLENBQUMsSUFBSSxDQUFDLEVBQUE7O3dDQUFqQixTQUFpQixDQUFBO3dDQUNqQixxQkFBTSxLQUFLLENBQUMsU0FBUyxFQUFFLEVBQUE7O3dDQUF2QixTQUF1QixDQUFBO3dDQUN2QixxQkFBTSxLQUFLLENBQUMsTUFBTSxFQUFFLEVBQUE7O3dDQUFwQixTQUFvQixDQUFBOzs7OztxQkFDdkIsQ0FBQyxDQUFBO2dCQUNOLENBQUMsQ0FBQyxDQUFBOzs7O0tBRUwsQ0FBQyxDQUFBIn0=
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiaW5kZXguanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY29tbWFuZHMvY3QvaW5kZXgudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7QUFBQSxzREFBaUM7QUFDakMsMERBQW1DO0FBQ25DLHNEQUErQjtBQUUvQixlQUFPLENBQUMsT0FBTyxDQUFDLG9CQUFvQixDQUFDO0tBQ2hDLFdBQVcsQ0FBQyxzQ0FBc0MsQ0FBQztLQUNuRCxNQUFNLENBQUMsVUFBTyxhQUFhOzs7OztnQkFDaEIsS0FBQSxhQUFhLENBQUE7O3lCQUNaLFdBQVcsQ0FBQyxDQUFaLHdCQUFXO3lCQUVYLFNBQVMsQ0FBQyxDQUFWLHdCQUFTOzs7b0JBREgscUJBQU0sbUJBQVMsRUFBRSxFQUFBO29CQUF4QixzQkFBTyxTQUFpQixFQUFBO29CQUVqQixxQkFBTSxpQkFBTyxFQUFFLEVBQUE7b0JBQXRCLHNCQUFPLFNBQWUsRUFBQTs7Z0JBSTlCLE9BQU8sQ0FBQyxLQUFLLENBQUMsZ0RBQWdELENBQUMsQ0FBQTs7OztLQUNsRSxDQUFDLENBQUEifQ==

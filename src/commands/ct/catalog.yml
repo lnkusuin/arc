@@ -1,0 +1,22 @@
+id: <%= id %>
+title: xxxxx
+goal: |
+    -
+effect: |
+    -
+workload: |
+    -
+order: ''
+content_type: catalog
+pined: false
+stakeholders: xxxx
+status: xxxx
+context: Google Products > G Suite | GCP
+resources:
+  - name: xxx
+    link: xxx
+contents:
+  # Overview
+  - id: xxxx
+    name: xxxx
+    depth: 1

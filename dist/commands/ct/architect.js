@@ -35,25 +35,25 @@ var __generator = (this && this.__generator) || function (thisArg, body) {
         if (op[0] & 5) throw op[1]; return { value: op[0] ? op[1] : void 0, done: true };
     }
 };
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
 Object.defineProperty(exports, "__esModule", { value: true });
-var contentful_1 = require("../../api/contentful");
-exports.default = (function () { return __awaiter(void 0, void 0, void 0, function () {
-    var contentTypeArchitect;
-    return __generator(this, function (_a) {
-        switch (_a.label) {
-            case 0:
-                console.log('start the create architect process');
-                return [4 /*yield*/, contentful_1.getContentTypeArchitect()];
-            case 1:
-                contentTypeArchitect = _a.sent();
-                contentTypeArchitect.name = 'Architect';
-                contentTypeArchitect.description = '設計資料の管理';
-                contentTypeArchitect.displayField = 'title';
-                contentTypeArchitect.fields = require('./scheme.architect').default;
-                return [2 /*return*/, contentTypeArchitect.update().then(function () {
-                        console.log('Success !!');
-                    })];
-        }
+var fs_1 = __importDefault(require("fs"));
+var path_1 = __importDefault(require("path"));
+var ejs_1 = __importDefault(require("ejs"));
+var uuid_1 = require("../uuid");
+function default_1() {
+    return __awaiter(this, void 0, void 0, function () {
+        var text;
+        return __generator(this, function (_a) {
+            text = ejs_1.default.render(fs_1.default.readFileSync(path_1.default.join(__dirname, './architect.md'), 'utf8'), {
+                id: uuid_1.getId()
+            });
+            console.log(text);
+            return [2 /*return*/];
+        });
     });
-}); });
-//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXBzZXJ0Q29udGVudFR5cGVBcmNoaXRlY3QuanMiLCJzb3VyY2VSb290IjoiIiwic291cmNlcyI6WyIuLi8uLi8uLi9zcmMvY29tbWFuZHMvc2NoZW1hL3Vwc2VydENvbnRlbnRUeXBlQXJjaGl0ZWN0LnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7O0FBQUEsbURBQTZEO0FBRTdELG1CQUFlOzs7OztnQkFDWCxPQUFPLENBQUMsR0FBRyxDQUFDLG9DQUFvQyxDQUFDLENBQUE7Z0JBQ3BCLHFCQUFNLG9DQUF1QixFQUFFLEVBQUE7O2dCQUF0RCxvQkFBb0IsR0FBRyxTQUErQjtnQkFFNUQsb0JBQW9CLENBQUMsSUFBSSxHQUFHLFdBQVcsQ0FBQTtnQkFDdkMsb0JBQW9CLENBQUMsV0FBVyxHQUFHLFNBQVMsQ0FBQTtnQkFDNUMsb0JBQW9CLENBQUMsWUFBWSxHQUFHLE9BQU8sQ0FBQTtnQkFDM0Msb0JBQW9CLENBQUMsTUFBTSxHQUFHLE9BQU8sQ0FBQyxvQkFBb0IsQ0FBQyxDQUFDLE9BQU8sQ0FBQTtnQkFFbkUsc0JBQU8sb0JBQW9CLENBQUMsTUFBTSxFQUFFLENBQUMsSUFBSSxDQUFDO3dCQUN0QyxPQUFPLENBQUMsR0FBRyxDQUFDLFlBQVksQ0FBQyxDQUFBO29CQUM3QixDQUFDLENBQUMsRUFBQTs7O0tBQ0wsRUFBQSJ9
+}
+exports.default = default_1;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiYXJjaGl0ZWN0LmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsiLi4vLi4vLi4vc3JjL2NvbW1hbmRzL2N0L2FyY2hpdGVjdC50cyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiOzs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7Ozs7OztBQUFBLDBDQUFtQjtBQUNuQiw4Q0FBdUI7QUFDdkIsNENBQXFCO0FBQ3JCLGdDQUE2QjtBQUU3Qjs7OztZQUNVLElBQUksR0FBRyxhQUFHLENBQUMsTUFBTSxDQUFDLFlBQUUsQ0FBQyxZQUFZLENBQUMsY0FBSSxDQUFDLElBQUksQ0FBQyxTQUFTLEVBQUMsZ0JBQWdCLENBQUMsRUFBRSxNQUFNLENBQUMsRUFBRTtnQkFDcEYsRUFBRSxFQUFFLFlBQUssRUFBRTthQUNkLENBQUMsQ0FBQTtZQUVGLE9BQU8sQ0FBQyxHQUFHLENBQUMsSUFBSSxDQUFDLENBQUE7Ozs7Q0FDcEI7QUFORCw0QkFNQyJ9

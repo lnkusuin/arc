@@ -1,4 +1,4 @@
-import program from "../../index"
+import program from '../../index'
 import upsertContentTypeArchitect from "./upsertContentTypeArchitect";
 import upsertContentTypeCatalog from "./upsertContentTypeCatalog";
 

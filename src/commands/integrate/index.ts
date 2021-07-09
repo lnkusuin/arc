@@ -1,4 +1,4 @@
-import program from "../../index"
+import program from '../../index'
 import architect from "./architect";
 import catalog from "./catalog";
 
