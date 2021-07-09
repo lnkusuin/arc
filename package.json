@@ -29,8 +29,8 @@
     "yaml": "^1.10.2"
   },
   "devDependencies": {
-    "@types/ejs": "^3.0.7",
-    "copyfiles": "^2.4.1",
+    "@types/ejs": "3.0.7",
+    "copyfiles": "2.4.1",
     "dotenv-cli": "4.0.0",
     "ts-node": "10.0.0"
   }
