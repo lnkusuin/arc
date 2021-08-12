@@ -14,3 +14,6 @@ source: ''
 order: ''
 ---
 
+<img src="https://raw.githubusercontent.com/vogaro-solution/architect/master/docs/how_to_design/goal.svg" alt="ninja"/>
+
+test test...
