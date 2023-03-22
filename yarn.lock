@@ -2,6 +2,11 @@
 # yarn lockfile v1
 
 
+"@contentful/rich-text-types@^16.0.3":
+  version "16.0.3"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.0.3.tgz#c590268483e07881fb01b6799e837337093e42bf"
+  integrity sha512-BsUtXj93jo5XUt0YeUwfCkMWRoZIzJDPUIY4vMy9SwGIO9olTsMoQKadjA2ktlmK+Gg6710WH3eFKZxj2q39Iw==
+
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
   resolved "https://registry.yarnpkg.com/@cspotcode/source-map-support/-/source-map-support-0.8.1.tgz#00629c35a688e05a88b1cda684fb9d5e73f000a1"
@@ -214,10 +219,11 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^10.0.0:
-  version "10.30.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.30.1.tgz#a5dcb94b42c25dd1483721db34553d7e31464b03"
-  integrity sha512-Qkhtztxbqt+O7lEoKsZBeg7INSrN0sJYqs6Itg/9dOGTfKiJbL/bgbViZ+yfXmktFEEncUsiUdeBIziLIZi+gg==
+  version "10.31.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.31.0.tgz#918444e24655a483041cc2c26e0c2ec0aabaa5df"
+  integrity sha512-WtOru4Ztgup2HIVxwcUBvDYEOF80GUCLsHyZnGkcmeII60FdDYVlRmY3OBt5lH323YECM2gIXDvlC2arJY/Xvw==
   dependencies:
+    "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
     axios "^0.27.1"
     contentful-sdk-core "^7.0.1"
