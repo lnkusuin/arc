@@ -246,9 +246,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^10.0.0:
-  version "10.38.4"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.38.4.tgz#9c17be23f2828819ac40aed67f99cb2002c77394"
-  integrity sha512-3lhCzq9MT9g/6fDdvCdaLffeFsxsOMIQp0uCzJOXPvNYB05/eUBIiIGQ3+3HmVMhIti8v1Gh4I7kEmFnffYX9w==
+  version "10.38.5"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.38.5.tgz#eee5b0786680e29ee73cfc53cc3bd97aa895105d"
+  integrity sha512-ybPtdofYdubFJNBB19dgDyDTkY428OX3YhSXK88faT0E56l1lh4WGZuhMdntPyuGqnQ3fRxSo9akQx9v8guwIQ==
   dependencies:
     "@contentful/rich-text-types" "^16.0.3"
     "@types/json-patch" "0.0.30"
@@ -775,6 +775,7 @@ string_decoder@~1.1.1:
     safe-buffer "~5.1.0"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
@@ -823,9 +824,9 @@ ts-node@10.9.1:
     yn "3.1.1"
 
 type-fest@^3.0.0:
-  version "3.12.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.12.0.tgz#4ce26edc1ccc59fc171e495887ef391fe1f5280e"
-  integrity sha512-qj9wWsnFvVEMUDbESiilKeXeHL7FwwiFcogfhfyjmvT968RXSvnl23f1JOClTHYItsi7o501C/7qVllscUP3oA==
+  version "3.13.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-3.13.0.tgz#b088347ae73779a750c461694b264340c4c8c0d7"
+  integrity sha512-Gur3yQGM9qiLNs0KPP7LPgeRbio2QTt4xXouobMCarR0/wyW3F+F/+OWwshg3NG0Adon7uQfSZBpB46NfhoF1A==
 
 typescript@^5.0.0:
   version "5.1.6"
