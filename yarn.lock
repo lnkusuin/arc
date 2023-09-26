@@ -239,9 +239,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^10.0.0:
-  version "10.46.2"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.46.2.tgz#0cb5a35c6ac789f8a0d29012a5c41ddc6d5e5f2b"
-  integrity sha512-2ob6epeYI0iCKSortNBnxhJKJtHKIUn63cZJODSELCW60ZNPWtWx279kRD68hLLD/NSxnbW4/rqxepBO2EPeUA==
+  version "10.46.3"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-10.46.3.tgz#1aab6cf3c526742d1a079618894c2f00883ef810"
+  integrity sha512-yhjJBfYAMnl/Yr8AC+o6RKfxxjjAtTWtzKtKBAdUxwdotbUxmmphT5NWfPwGrfq9NhixK70utSH/rt1kb15vDg==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -719,6 +719,7 @@ string_decoder@~1.1.1:
     safe-buffer "~5.1.0"
 
 "strip-ansi-cjs@npm:strip-ansi@^6.0.1", strip-ansi@^6.0.0, strip-ansi@^6.0.1:
+  name strip-ansi-cjs
   version "6.0.1"
   resolved "https://registry.yarnpkg.com/strip-ansi/-/strip-ansi-6.0.1.tgz#9e26c63d30f53443e9489495b2105d37b67a85d9"
   integrity sha512-Y38VPSHcqkFrCpFnQ9vuSXmquuv5oXOKpGeT6aGrr3o3Gc9AlVa6JBfUSOCnbxGGZF+/0ooI7KrPuUSztUdU5A==
