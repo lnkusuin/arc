@@ -141,9 +141,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^1.4.0:
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.5.1.tgz#11fbaa11fc35f431193a9564109c88c1f27b585f"
-  integrity sha512-Q28iYCWzNHjAm+yEAot5QaAMxhMghWLFVf7rRdwhUI+c2jix2DUXjAHXVi+s1ibs3mjPO/cCgbA++3BjD0vP/A==
+  version "1.6.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.0.tgz#f1e5292f26b2fd5c2e66876adc5b06cdbd7d2102"
+  integrity sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -241,9 +241,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.3.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.3.0.tgz#02a110bee002351d42ce1dbf3661509806fbcc77"
-  integrity sha512-Iu8r9DBhs/UNRWGkmJ/ssHA9I5JgoYXM+MDzCyjZ4T8zJMqlfR2L53Ho+TQSw21msRperBhpjkNvbvwHyfJQIQ==
+  version "11.4.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.4.0.tgz#127087e3a319b5dac7fa8b49836b4b6f7ea8f1dd"
+  integrity sha512-qLk4Mzxt7iBSvW+QoAftNsdX56j7mX0+d4NJ4PxDCfAheEYmFag4WNhFny1m15cr8gbZ7vcf+eNbSXDk5IAIAg==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
