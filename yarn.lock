@@ -141,9 +141,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^1.4.0:
-  version "1.6.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.0.tgz#f1e5292f26b2fd5c2e66876adc5b06cdbd7d2102"
-  integrity sha512-EZ1DYihju9pwVB+jg67ogm+Tmqc6JmhamRN6I4Zt8DfZu5lbcQGw3ozH9lFejSJgs/ibaef3A9PMXPLeefFGJg==
+  version "1.6.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.1.tgz#76550d644bf0a2d469a01f9244db6753208397d7"
+  integrity sha512-vfBmhDpKafglh0EldBEbVuoe7DyAavGSLWhuSm5ZSEKQnHhBf0xAAwybbNH1IkrJNGnS/VG4I5yxig1pCEXE4g==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -241,9 +241,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.5.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.5.0.tgz#aeaa4bddd7f7acf30ea33305671a9c6aa9a08015"
-  integrity sha512-6tpzwhe+Y6+wNY2d6+h6i2K3sOmAlv9kBKEmQWHf+XaQtEDKkN3SK2aCumC+XQnmorVujuNoCQ2g4IuBCPODWQ==
+  version "11.5.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.5.1.tgz#f3fb06a2729593d32074c6a2e8764d771f21c22f"
+  integrity sha512-t3PN28A1p+qE5sGliiNiBljGtHcVQXCTMB3HVer5yRPMtqkzpINqzxl5qzFPKliY4i8lms2wMLUi5l4lWrcrAg==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -770,9 +770,9 @@ ts-node@10.9.1:
     yn "3.1.1"
 
 type-fest@^4.0.0:
-  version "4.6.0"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.6.0.tgz#9c575f7e20530defef4f9cdc5e2c85d6e4ea0fc9"
-  integrity sha512-rLjWJzQFOq4xw7MgJrCZ6T1jIOvvYElXT12r+y0CC6u67hegDHaxcPqb2fZHOGlqxugGQPNB1EnTezjBetkwkw==
+  version "4.7.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.7.1.tgz#dbe462c5f350d708ec6ca6fe8925b5b6541ca9a7"
+  integrity sha512-iWr8RUmzAJRfhZugX9O7nZE6pCxDU8CZ3QxsLuTnGcBLJpCaP2ll3s4eMTBoFnU/CeXY/5rfQSuAEsTGJO4y8A==
 
 typescript@^5.0.0:
   version "5.2.2"
