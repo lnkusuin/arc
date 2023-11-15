@@ -141,9 +141,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^1.4.0:
-  version "1.6.1"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.1.tgz#76550d644bf0a2d469a01f9244db6753208397d7"
-  integrity sha512-vfBmhDpKafglh0EldBEbVuoe7DyAavGSLWhuSm5ZSEKQnHhBf0xAAwybbNH1IkrJNGnS/VG4I5yxig1pCEXE4g==
+  version "1.6.2"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.6.2.tgz#de67d42c755b571d3e698df1b6504cde9b0ee9f2"
+  integrity sha512-7i24Ri4pmDRfJTR7LDBhsOTtcm+9kjX5WiY1X3wIisx6G9So3pfMkEiU7emUBe46oceVImccTEM3k6C5dbVW8A==
   dependencies:
     follow-redirects "^1.15.0"
     form-data "^4.0.0"
@@ -241,9 +241,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.5.2"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.5.2.tgz#d4c9a76868bea43f09d8b5e244cf6ca40db4cc7b"
-  integrity sha512-sfiU14vRYJXR/9qLjSvpZpPSbxr0yuJ5RMHLmfOBtaBnDb02YY8wF/mxv13M27gacZ3oABr1E55nyFtjBIJnqA==
+  version "11.5.3"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.5.3.tgz#a15b218423dff4117c0daae607cd35267ae39bd8"
+  integrity sha512-pcF7gR8kwLqGH4E41SwZ7IBxKI+hS0BmEx7gY1UOFnFldiCxfZ0EKNN+6zxeZEjkFLUeZ762nfQjkxhJMFmjFA==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -254,9 +254,9 @@ contentful-management@^11.0.0:
     type-fest "^4.0.0"
 
 contentful-sdk-core@^8.1.0:
-  version "8.1.0"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-8.1.0.tgz#6493d3c0c08ef57bd6a94b5b85abe622e9595caa"
-  integrity sha512-ZXTtrkrx4OlRcVY0WLihrskF+BSuHe7QZuWA8DNEeTlHmkPXAVch9Og5TJDoyGeqNrArR3Ovd7yfaG+1QYo+ag==
+  version "8.1.1"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-8.1.1.tgz#810ebdf3daec03153930fb66cc1917e0dd412e2a"
+  integrity sha512-0oWZmU4V9AgFVwljJLQc1sQJzxSodnLQk9TCmUTFw12rjiloPKYLRo4iz6KJD1enyVmZsz+Ckb0wADUVvFKg6A==
   dependencies:
     fast-copy "^2.1.7"
     lodash.isplainobject "^4.0.6"
