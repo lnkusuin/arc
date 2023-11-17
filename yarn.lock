@@ -241,9 +241,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.5.3"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.5.3.tgz#a15b218423dff4117c0daae607cd35267ae39bd8"
-  integrity sha512-pcF7gR8kwLqGH4E41SwZ7IBxKI+hS0BmEx7gY1UOFnFldiCxfZ0EKNN+6zxeZEjkFLUeZ762nfQjkxhJMFmjFA==
+  version "11.5.4"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.5.4.tgz#074279b343a1ddaf10a2156112397fa5ff31923b"
+  integrity sha512-VopfVqyzE+U5MBsDkwbrP+v9+vOZzx6q4cNTpcJWLmXU1CXcOhU9oFWbwlQXhkr+GYYpvnU9nPlU2R1KLxguIg==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -770,9 +770,9 @@ ts-node@10.9.1:
     yn "3.1.1"
 
 type-fest@^4.0.0:
-  version "4.7.1"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.7.1.tgz#dbe462c5f350d708ec6ca6fe8925b5b6541ca9a7"
-  integrity sha512-iWr8RUmzAJRfhZugX9O7nZE6pCxDU8CZ3QxsLuTnGcBLJpCaP2ll3s4eMTBoFnU/CeXY/5rfQSuAEsTGJO4y8A==
+  version "4.8.1"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.8.1.tgz#2a5bf1074abb580d2d6eb5c1e79c11147fd11d4f"
+  integrity sha512-ShaaYnjf+0etG8W/FumARKMjjIToy/haCaTjN2dvcewOSoNqCQzdgG7m2JVOlM5qndGTHjkvsrWZs+k/2Z7E0Q==
 
 typescript@^5.0.0:
   version "5.2.2"
