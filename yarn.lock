@@ -3,9 +3,9 @@
 
 
 "@contentful/rich-text-types@^16.3.0":
-  version "16.3.0"
-  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.3.0.tgz#d44145a43b32d61eb4d6a82d3001cdfddbbda42e"
-  integrity sha512-OfQmAu5bxE0CgQA3WlUleVej+ifFG/iXmB2DmUl4EyWyFue1aiIvfjxQhcDRSH4n1jUNMJ6L1wInZL8uV5m3TQ==
+  version "16.3.3"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.3.3.tgz#2eb7c6d01929160c3be79f97571a97ee5fdf80f9"
+  integrity sha512-AoC/fbzRiBPodnUfOXGf5v0hjnqGMcaABT6+HdP7Kn/3n6m12y6Uhhcbj1J8H1rIMxTkTmc5LQhroHJNRNyidg==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -250,9 +250,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.13.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.13.1.tgz#14941967c87e4c3420c1ec9aec7ed2d4a20e4f8c"
-  integrity sha512-SpX2fWQySExL7GotTk3lw15NdoMzdiT6tnaBXZbbjVerpwBmhr5fuwloz8E9NHD6ZLzjP6C2OxeDfdjGBCAaOw==
+  version "11.13.2"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.13.2.tgz#1bb53015101c124addf6077aa82ca4be6757ac25"
+  integrity sha512-4g3KkiyVas8wdrC52SHPo+Z+zyJwXbC916mCfA6c67KUtko47WhivzEsvudwyyCld6L70FH/nFe+gfezcc16NA==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
