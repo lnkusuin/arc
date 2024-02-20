@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.16.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.16.0.tgz#9708ffaa2063e70079b6a064ef92d88b2cc68821"
-  integrity sha512-NIo8MxDDNLKiUvqWDcW1Zga3h6Y06hDt7jPgh4jPyit3Q3zNeBjkpMqrLcUdsJsiXZ8hdZ23rF3Pi0HDyy5opA==
+  version "11.17.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.17.0.tgz#c28f7766cef3c86a03eba1a5de2c40be3ee61975"
+  integrity sha512-dqCiwQ84YwnPCo4kDkdUk+wskrz8fdy16RXMFrOEYnEZYjXcgBCyj34OF0eKH+AaTLgkndx26jwQmdIMYVV0KQ==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -505,9 +505,9 @@ has-property-descriptors@^1.0.1:
     es-define-property "^1.0.0"
 
 has-proto@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/has-proto/-/has-proto-1.0.1.tgz#1885c1305538958aff469fef37937c22795408e0"
-  integrity sha512-7qE+iP+O+bgF9clE5+UoBFzE65mlBiVj3tKCrlNQ0Ogwm0BjpT/gK4SlLYDMybDh5I3TCTKnPPa0oMG7JDYrhg==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/has-proto/-/has-proto-1.0.3.tgz#b31ddfe9b0e6e9914536a6ab286426d0214f77fd"
+  integrity sha512-SJ1amZAJUiZS+PhsVLf5tGydlaVB8EdFpaSO4gmiUKUOxk8qzn5AIy4ZeJUmh22znIdk/uMAUT2pl3FxzVUH+Q==
 
 has-symbols@^1.0.3:
   version "1.0.3"
