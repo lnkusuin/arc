@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.18.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.18.0.tgz#99821bdc285f362e857eb391e9bb7e1531ffa2c4"
-  integrity sha512-UqH2DTcIIWIdLfGPWa6Pwyd86LekQB7weH4GyFhdZZJ1pEGe19qMTauCUbTKRcce6fgvsoQyzRredf7trfmjfg==
+  version "11.19.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.19.0.tgz#5ae523c09df6735963ba4b7a96b3f0d91969e50a"
+  integrity sha512-orkum+K2adRaljfANI0XgoxYO8e0f+YPCjRlBLK0xDiSAcMbfXMf3zXP3BL6g/TtK25P4J/FMxIr1s/Lh4vs1w==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
