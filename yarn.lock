@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.24.5"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.24.5.tgz#3eadb12a47023451e79c594f3b156f58b32d4953"
-  integrity sha512-ln404pLY8qBy0g+lqr6xKGVV8V8yhrNX4HE1LTx26MRNKiH/Lz9lE6gI2EJkJhJxOZ7/Ibw1ngBv7SVdgQwA0w==
+  version "11.25.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.25.0.tgz#3b9689871dafde9f32c44b889736f061cc5508d8"
+  integrity sha512-w5OqoCSzHbKXzGvgjGcQL7zCW2AKHRvSPJ5cMAAdLvPmY9vbJXXv8IucEEiAZO5yS6RUL1Pc7KXASqSnUyHoIw==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -715,9 +715,9 @@ proxy-from-env@^1.1.0:
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
 qs@^6.11.2:
-  version "6.12.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.0.tgz#edd40c3b823995946a8a0b1f208669c7a200db77"
-  integrity sha512-trVZiI6RMOkO476zLGaBIzszOdFPnCCXHPG9kn0yuS1uz6xdVxPfZdB3vUig9pxPFDM9BRAgz/YUIVQ1/vuiUg==
+  version "6.12.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.1.tgz#39422111ca7cbdb70425541cba20c7d7b216599a"
+  integrity sha512-zWmv4RSuB9r2mYQw3zxQuHWeU+42aKi1wWig/j4ele4ygELZ7PEO6MM7rim9oAQH2A5MWfsAVf/jPvTPgCbvUQ==
   dependencies:
     side-channel "^1.0.6"
 
