@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.26.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.26.1.tgz#d2275152bf6c1904699cf1d6be5b8201313f569b"
-  integrity sha512-czIpk3N6GDHOBvIoq06Ml216zA/2fSPX3jGcGeWscLqUbcg4Jan8agnkaqVsG8C8R5jjBMxKxKsMp+zrEh//Aw==
+  version "11.26.2"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.26.2.tgz#2032b234c473698db99f2a851e0e7814132c4bba"
+  integrity sha512-Zen5JnDpkOFRGR+abjTowjuvWbqhqyJMnbkmBNQgAyj0pWgpGhLBs0XzZ7ZJUyRlqjkqN2I6oezaF7Bdk5hdGQ==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -265,9 +265,9 @@ contentful-management@^11.0.0:
     type-fest "^4.0.0"
 
 contentful-sdk-core@^8.1.0:
-  version "8.1.2"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-8.1.2.tgz#a27ea57cfd631b4c6d58e5ca04fcde6d231e2c1b"
-  integrity sha512-XZvX2JMJF4YiICXLrHFv59KBHaQJ6ElqAP8gSNgnCu4x+pPG7Y1bC2JMNOiyAgJuGQGVUOcNZ5PmK+tsNEayYw==
+  version "8.1.3"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-8.1.3.tgz#c6c74cea732cd0bf395cc39aac52aa11bb388382"
+  integrity sha512-jAek5yGhpk3OJC+lWeq4AZIHO3lxELNMyETDU0fYkPnRS4wHCjbNv5cSk84Rbo7NyH5CkfgzGszvc0GDSXtg0w==
   dependencies:
     fast-copy "^2.1.7"
     lodash.isplainobject "^4.0.6"
