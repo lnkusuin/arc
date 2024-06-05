@@ -3,9 +3,9 @@
 
 
 "@contentful/rich-text-types@^16.3.0":
-  version "16.4.0"
-  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.4.0.tgz#a2794b41ad3e1a635a4f858c7a0c55ccb287f833"
-  integrity sha512-m6lKBhw+J/IOa3z0yGabZ/oxFlKqwbHISAYsmoAtYxOgI7Kije1/PMK8eb2WnXRvTmJNu8+0hYpeAI8G7wdexA==
+  version "16.5.2"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.5.2.tgz#924641091d5ae83b9fb34908745a62d652b44d68"
+  integrity sha512-qD98Amp/vWxCYMtv7yprh4Ry3QHFX50sf+i3E6e/WRquz+aUW2ilqmQqW6ucb4F2dlatUxMbOOhZOFazv2XLjg==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.26.2"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.26.2.tgz#2032b234c473698db99f2a851e0e7814132c4bba"
-  integrity sha512-Zen5JnDpkOFRGR+abjTowjuvWbqhqyJMnbkmBNQgAyj0pWgpGhLBs0XzZ7ZJUyRlqjkqN2I6oezaF7Bdk5hdGQ==
+  version "11.27.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.27.0.tgz#04e8c10a9a247d93bab9ed149f0166d3c579c5b9"
+  integrity sha512-xOpwiCl8vDDVbT6C/sBD0sZnMBBgvkGgjPdzOGy5SL8TowawXylaMsQ6IDfIIGYqNjs8OftuJLW4PN9oLECKiA==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -898,9 +898,9 @@ ts-node@10.9.2:
     yn "3.1.1"
 
 type-fest@^4.0.0:
-  version "4.18.2"
-  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.18.2.tgz#8d765c42e7280a11f4d04fb77a00dacc417c8b05"
-  integrity sha512-+suCYpfJLAe4OXS6+PPXjW3urOS4IoP9waSiLuXfLgqZODKw/aWwASvzqE886wA0kQgGy0mIWyhd87VpqIy6Xg==
+  version "4.19.0"
+  resolved "https://registry.yarnpkg.com/type-fest/-/type-fest-4.19.0.tgz#f7d3d5f55a7a118b5fe3d2eef53059cf8e516dcd"
+  integrity sha512-CN2l+hWACRiejlnr68vY0/7734Kzu+9+TOslUXbSCQ1ruY9XIHDBSceVXCcHm/oXrdzhtLMMdJEKfemf1yXiZQ==
 
 typescript@^5.0.0:
   version "5.4.5"
