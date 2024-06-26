@@ -3,9 +3,9 @@
 
 
 "@contentful/rich-text-types@^16.3.0":
-  version "16.5.2"
-  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.5.2.tgz#924641091d5ae83b9fb34908745a62d652b44d68"
-  integrity sha512-qD98Amp/vWxCYMtv7yprh4Ry3QHFX50sf+i3E6e/WRquz+aUW2ilqmQqW6ucb4F2dlatUxMbOOhZOFazv2XLjg==
+  version "16.6.1"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.6.1.tgz#d7a0890b885ab681028aa7f1085e219d8b2c51be"
+  integrity sha512-Rb8QusSMSTMUP4dbpBDWgwGJoqKDYRxPcNXySP0URYTQ6pViJ2SXhVc81RJCgJ5Fb02n5ctbvDYGtcnBH8yhDw==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.27.3"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.27.3.tgz#12f6d735883c06a3455b8ed45575f3536db5ff1c"
-  integrity sha512-uEv36xgUPS7fTljbZm+yz98yH1h9TYexLk38MguI3PbpKN2VHOM1OdGdXTVj6AXDmCgV5RFLKn9FLDJV0IesSA==
+  version "11.27.4"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.27.4.tgz#2de84f089a022ccb869142e5fa1e4c2c355f5fdd"
+  integrity sha512-YE9RvdH5IydBXdbOmig9Qz1MuLT0AsGbkF8q+koshxASv+I2PGjxzxVRsI6cxW2iAtItcSS2jkaczEs3Gioj9Q==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -671,9 +671,9 @@ noms@0.0.0:
     readable-stream "~1.0.31"
 
 object-inspect@^1.13.1:
-  version "1.13.1"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.1.tgz#b96c6109324ccfef6b12216a956ca4dc2ff94bc2"
-  integrity sha512-5qoj1RUiKOMsCCNLV1CBiPYE10sziTsnmNxkAI/rZhiD63CF7IqdFGC/XzjWjpSgLf0LxXX3bDFIh0E18f6UhQ==
+  version "1.13.2"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.2.tgz#dea0088467fb991e67af4058147a24824a3043ff"
+  integrity sha512-IRZSRuzJiynemAXPYtPe5BoI/RESNYR7TYm50MC5Mqbd3Jmw5y790sErYw3V6SryFJD64b74qQQs9wn5Bg/k3g==
 
 once@^1.3.0:
   version "1.4.0"
