@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.28.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.28.0.tgz#405e9fab1ab2ebc67fd235f8543bcf2949e15ee4"
-  integrity sha512-clKSjaTvuA8YDJGDmF7JAy9SOTmVeoU3+qXIXy/tGkPtXNTfp4cx3O6CLoXPY52lttxZlPwZbdL24izIxfOlyg==
+  version "11.29.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.29.0.tgz#6274f2e638482d4cd15c11ad6bd12693dfa114bd"
+  integrity sha512-elaqXFoqVlCJOJ076fq5SYFV273pQkuOUye05PahoBDNNHADVeP7ZOwXVTLYfUVVHTcakS/AWRo2ARSvcF+kbw==
   dependencies:
     "@contentful/rich-text-types" "^16.3.0"
     "@types/json-patch" "0.0.30"
@@ -721,9 +721,9 @@ proxy-from-env@^1.1.0:
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
 qs@^6.11.2:
-  version "6.12.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.2.tgz#5443b587f3bf73ac68968de491e5b25bafe04478"
-  integrity sha512-x+NLUpx9SYrcwXtX7ob1gnkSems4i/mGZX5SlYxwIau6RrUSODO89TR/XDGGpn5RPWSYIB+aSfuSlV5+CmbTBg==
+  version "6.12.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.12.3.tgz#e43ce03c8521b9c7fd7f1f13e514e5ca37727754"
+  integrity sha512-AWJm14H1vVaO/iNZ4/hO+HyaTehuy9nRqVdkTqlJt0HWvBiBIEXFmb4C0DGeYo3Xes9rrEW+TxHsaigCbN5ICQ==
   dependencies:
     side-channel "^1.0.6"
 
