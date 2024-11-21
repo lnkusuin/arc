@@ -247,9 +247,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.38.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.38.0.tgz#f2bed003ac57899262a1ad402c7628fdd77257ea"
-  integrity sha512-69D2kHCB1kyOshVoWCSPcGy2i1JjrTwQqfRP11Uf373wufdwlbcXPIXe44dCV3eDpehIEjYj3sup3DdziruLLA==
+  version "11.39.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.39.0.tgz#2a1ecf524d570b5ebf9f70e4973e7f4b796195b5"
+  integrity sha512-fp4578CaSadL/NrEK2iNe1clNScJ8lAy9ZHP6VHKI6i7lhVjT8Kn+ShR2yOHaRfswayqL5ga06TseH0zthWdew==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.7.4"
@@ -713,9 +713,9 @@ proxy-from-env@^1.1.0:
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
 qs@^6.11.2:
-  version "6.13.0"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.13.0.tgz#6ca3bd58439f7e245655798997787b0d88a51906"
-  integrity sha512-+38qI9SOr8tfZ4QmJNplMUxqjbe7LKvvZgWdExBOmd+egZTtjLB67Gu0HRX3u/XOq7UU2Nx6nsjvS16Z9uwfpg==
+  version "6.13.1"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.13.1.tgz#3ce5fc72bd3a8171b85c99b93c65dd20b7d1b16e"
+  integrity sha512-EJPeIn0CYrGu+hli1xilKAPXODtJ12T0sP63Ijx2/khC2JtuaN3JyNIpvmnkmaEtha9ocbG4A4cMcr+TvqvwQg==
   dependencies:
     side-channel "^1.0.6"
 
