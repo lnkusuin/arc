@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.41.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.41.0.tgz#772137b0d6ef174b473b0d518cb20c72e21b3d90"
-  integrity sha512-8ST0NIxg6mjaUhzKOllhNbs61rjs/ei5YvtaYzmBjX5gmUIEAMu/aoPhL402nuODQdCam4wCAOu6WBZk9Fc+8Q==
+  version "11.42.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.42.0.tgz#9047368e50e87e7e61e02665441f3822e18aac84"
+  integrity sha512-x6qBgwR03sEa7C9FjKSc7ec9TCTKVHsre91Y632SyH1nP/ZJCaSgJPVVRiFV5s8fEKDowwG1jGrKLtolVcN0aQ==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.7.9"
@@ -378,9 +378,9 @@ es-errors@^1.3.0:
   integrity sha512-Zf5H2Kxt2xjTvbJvP2ZWLEICxA6j+hAmMzIlypy4xcBg1vKVnx89Wy0GbS+kf5cwCVFFzdCFh2XSCFNULS6csw==
 
 es-object-atoms@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/es-object-atoms/-/es-object-atoms-1.1.0.tgz#095de9ecceeb2ca79668212b60ead450ffd323bf"
-  integrity sha512-Ujz8Al/KfOVR7fkaghAB1WvnLsdYxHDWmfoi2vlA2jZWRg31XhIC1a4B+/I24muD8iSbHxJ1JkrfqmWb65P/Mw==
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/es-object-atoms/-/es-object-atoms-1.1.1.tgz#1c4f2c4837327597ce69d2ca190a7fdd172338c1"
+  integrity sha512-FGgH2h8zKNim9ljj7dankFPcICIK9Cp5bm+c2gQSYePhpaG5+esrLODihIorn+Pe6FGJzWhXQotPv73jTaldXA==
   dependencies:
     es-errors "^1.3.0"
 
