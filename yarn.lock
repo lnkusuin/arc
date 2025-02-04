@@ -45,9 +45,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.32.1"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.32.1.tgz#5c009c264a7ce0e19b40890ca9945440bb420691"
-  integrity sha512-WQFLZ9c42ECqEjwg/GHHsouij3pzLXkFdz0UxHa/0OM12LzvX7DzedlY0SIEly2v18YZLRhCRoHZDxbBSWoGYg==
+  version "4.34.2"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.2.tgz#2a59f28be83f134f600c9bc41f7a343e29d7ab80"
+  integrity sha512-j+jFdfOycLIQ7FWKka9Zd3qvsIyugg5LeZuHF6kFlXo6MSOc6R1w37YUVy8VpAKd81LMWGi5g9J25P09M0SSIw==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.45.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.45.1.tgz#0eb3c7d9b75c7f19d26fdda2fa4367df4ff4a939"
-  integrity sha512-Nvz80qfKFlaiOYCx5EdhXdZ7TKYlqOzV6hYSFWQDuChLDacHTLshiMH28ktcKntyUSVqQnZzVAOKN8jMM213Ag==
+  version "11.46.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.46.0.tgz#148833c48537c1b99b09ee785aa4d416c65509bd"
+  integrity sha512-cfUyjXV/ZOd430SNGD9y0/qWO9s33rZz9JJQhu2vuYcys8DmuVcIOTiU7PhneF3YC/yFMtAcJdfvn8W80dcuWQ==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.7.9"
@@ -262,9 +262,9 @@ contentful-management@^11.0.0:
     fast-copy "^3.0.0"
 
 contentful-sdk-core@^9.0.1:
-  version "9.0.1"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.0.1.tgz#13460882fe58a0e507227831f5596c6d9f27233e"
-  integrity sha512-Ao/5Y74ERPn6kjzb/8okYPuQJnikMtR+dnv0plLw8IvPomwXonLq3qom0rLSyo5KuvQkBMa9AApy1izunxW4mw==
+  version "9.1.0"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.1.0.tgz#ca6599b9677722f21937a1db84f78b6a0299e7a2"
+  integrity sha512-bXx8in9m+/hwGlrGIvwHBuYXruRHeYboXRUUCFD4ex1m7kZPkYEJmI9Ll7zfXZkkFNz9nWeXGYm1AQAzpeVtgA==
   dependencies:
     fast-copy "^3.0.2"
     lodash "^4.17.21"
