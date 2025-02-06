@@ -45,9 +45,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.34.2"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.2.tgz#2a59f28be83f134f600c9bc41f7a343e29d7ab80"
-  integrity sha512-j+jFdfOycLIQ7FWKka9Zd3qvsIyugg5LeZuHF6kFlXo6MSOc6R1w37YUVy8VpAKd81LMWGi5g9J25P09M0SSIw==
+  version "4.34.4"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.34.4.tgz#5d58ee6c68e160754a9b5950156308b8a5eaa18f"
+  integrity sha512-JGejzEfVzqc/XNiCKZj14eb6s5w8DdWlnQ5tWUbs99kkdvfq9btxxVX97AaxiUX7xJTKFA0LwoS0KU8C2faZRg==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -252,9 +252,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.46.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.46.0.tgz#148833c48537c1b99b09ee785aa4d416c65509bd"
-  integrity sha512-cfUyjXV/ZOd430SNGD9y0/qWO9s33rZz9JJQhu2vuYcys8DmuVcIOTiU7PhneF3YC/yFMtAcJdfvn8W80dcuWQ==
+  version "11.47.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.47.0.tgz#56a793392b594bb693ef5677c31c45be24130c2c"
+  integrity sha512-kcJJfCByVuNMYguisqrmMeo/MWDjLYy1cDKRrRiellC3DZVAP2eb4iqW+4ZprnbXgtEFYjpESXf8VaJQh4gfdQ==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.7.9"
@@ -667,9 +667,9 @@ noms@0.0.0:
     readable-stream "~1.0.31"
 
 object-inspect@^1.13.3:
-  version "1.13.3"
-  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.3.tgz#f14c183de51130243d6d18ae149375ff50ea488a"
-  integrity sha512-kDCGIbxkDSXE3euJZZXzc6to7fCrKHNI/hSRQnRuQ+BWjFNzZwiFF8fj/6o2t2G9/jTj8PSIYTfCLelLZEeRpA==
+  version "1.13.4"
+  resolved "https://registry.yarnpkg.com/object-inspect/-/object-inspect-1.13.4.tgz#8375265e21bc20d0fa582c22e1b13485d6e00213"
+  integrity sha512-W67iLl4J2EXEGTbfeHCffrjDfitvLANg0UlX3wFUUSTx92KXRFegMHUVgSqE+wvhAbi4WqjGg9czysTV2Epbew==
 
 once@^1.3.0:
   version "1.4.0"
