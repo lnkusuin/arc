@@ -57,9 +57,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.45.1"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.45.1.tgz#0d4c8d0b8f801902f0844a40a9d981a0179f4971"
-  integrity sha512-+E/lYl6qu1zqgPEnTrs4WysQtvc/Sh4fC2nByfFExqgYrqkKWp1tWIbe+ELhixnenSpBbLXNi6vbEEJ8M7fiHw==
+  version "4.46.1"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.46.1.tgz#3991010418c005e8791c415e7c2072b247157710"
+  integrity sha512-9OADZYryz/7E8/qt0vnaHQgmia2Y0wrjSSn1V/uL+zw/i7NUhxbX4cHXdEQ7dnJgzYDS81d8+tf6nbIdRFZQoQ==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -147,13 +147,13 @@ asynckit@^0.4.0:
   resolved "https://registry.yarnpkg.com/asynckit/-/asynckit-0.4.0.tgz#c79ed97f7f34cb8f2ba1bc9790bcc366474b4b79"
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
-axios@^1.8.4:
-  version "1.10.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.10.0.tgz#af320aee8632eaf2a400b6a1979fa75856f38d54"
-  integrity sha512-/1xYAC4MP/HEG+3duIhFr4ZQXR4sQXOIe+o6sdqzeykGLx6Upp/1p8MHqhINOvGeP7xyNHe7tsiJByc4SSVUxw==
+axios@^1.11.0:
+  version "1.11.0"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.11.0.tgz#c2ec219e35e414c025b2095e8b8280278478fdb6"
+  integrity sha512-1Lx3WLFQWm3ooKDYZD1eXmoGO9fxYQjrycfHFC8P0sCfQVXyROp0p9PFWBehewBOdCwHc+f/b8I0fMto5eSfwA==
   dependencies:
     follow-redirects "^1.15.6"
-    form-data "^4.0.0"
+    form-data "^4.0.4"
     proxy-from-env "^1.1.0"
 
 balanced-match@^1.0.0:
@@ -264,12 +264,12 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.54.3"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.54.3.tgz#7fa25a36f64a7077b2a5d91bbf295ac32dca9f29"
-  integrity sha512-/2aGKLBW5pUytB4Q3mpza80wgs5rf9Rg+q/ps0txrWgWQBbE1ZSeX5Yg6e+ogVIKvV28JgfBKRndAVZE4LFdaw==
+  version "11.54.4"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.54.4.tgz#0bf338cae388e9af4ac8d0f6e0f93bda91572501"
+  integrity sha512-h1+aIj0xHVK3aDn6KkDOmCGO5kqwElgEEELel6EZC4skJkBOHU5DACdHc3thkhua5hbSufExNjmwdmN4TLFb8w==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
-    axios "^1.8.4"
+    axios "^1.11.0"
     contentful-sdk-core "^9.0.1"
     fast-copy "^3.0.0"
     globals "^15.15.0"
@@ -442,7 +442,7 @@ foreground-child@^3.3.1:
     cross-spawn "^7.0.6"
     signal-exit "^4.0.1"
 
-form-data@^4.0.0:
+form-data@^4.0.4:
   version "4.0.4"
   resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.4.tgz#784cdcce0669a9d68e94d11ac4eea98088edd2c4"
   integrity sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==
