@@ -57,9 +57,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.46.1"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.46.1.tgz#3991010418c005e8791c415e7c2072b247157710"
-  integrity sha512-9OADZYryz/7E8/qt0vnaHQgmia2Y0wrjSSn1V/uL+zw/i7NUhxbX4cHXdEQ7dnJgzYDS81d8+tf6nbIdRFZQoQ==
+  version "4.50.1"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.50.1.tgz#fc0be1da374f85e7e85dccaf1ff12d7cfc9fbe3d"
+  integrity sha512-MCgtFB2+SVNuQmmjHf+wfI4CMxy3Tk8XjA5Z//A0AKD7QXUYFMQcns91K6dEHBvZPCnhJSyDWLApk40Iq/H3tA==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -264,9 +264,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.54.4"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.54.4.tgz#0bf338cae388e9af4ac8d0f6e0f93bda91572501"
-  integrity sha512-h1+aIj0xHVK3aDn6KkDOmCGO5kqwElgEEELel6EZC4skJkBOHU5DACdHc3thkhua5hbSufExNjmwdmN4TLFb8w==
+  version "11.55.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.55.0.tgz#de4a7e46ffb5df8879c0d6c1161416a5b4d03488"
+  integrity sha512-YgjbeZ31Gl9l9KKJNZ4k8hhIY3RGCwT6UKkdAHKBFdHHIbVTR0JIo/zVj+LCPTqfrDDY1hdoo0GNVbb4Uu/i6Q==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.11.0"
@@ -437,9 +437,9 @@ filelist@^1.0.4:
     minimatch "^5.0.1"
 
 follow-redirects@^1.15.6:
-  version "1.15.9"
-  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.9.tgz#a604fa10e443bf98ca94228d9eebcc2e8a2c8ee1"
-  integrity sha512-gew4GsXizNgdoRyqmyfMHyAmXsZDk6mHkSxZFCzW9gwlbtOW44CDtYavM+y+72qD/Vq2l550kMF52DT8fOLJqQ==
+  version "1.15.11"
+  resolved "https://registry.yarnpkg.com/follow-redirects/-/follow-redirects-1.15.11.tgz#777d73d72a92f8ec4d2e410eb47352a56b8e8340"
+  integrity sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==
 
 foreground-child@^3.3.1:
   version "3.3.1"
