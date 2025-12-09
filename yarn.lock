@@ -45,9 +45,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.53.2"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.53.2.tgz#42c3b8c94e9de37bd103cb2e26fb715118ef6459"
-  integrity sha512-yo8d6tdfdeBArzC7T/PnHd7OypfI9cbuZzPnzLJIyKYFhAQ8SvlkKtKBMbXDxe1h03Rcr7u++nFS7tqXz87Gtw==
+  version "4.53.3"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.53.3.tgz#fd0dea3bb9aa07e7083579f25e1c2285a46cb9fa"
+  integrity sha512-3EhFi1FU6YL8HTUJZ51imGJWEX//ajQPfqWLI3BQq4TlvHy4X0MOr5q3D2Zof/ka0d5FNdPwZXm3Yyib/UEd+w==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -242,9 +242,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.63.1"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.63.1.tgz#033f4f49b7c8af88901ba2918e9b586c6e808283"
-  integrity sha512-2EKvO3aP6XkUuGSg6yoCUBF2RyFiG++duDZhEj5BLzlcBGbeRY1Q7FjcRUicg7wjiPmIKKOpsH08XPQHiCSBGw==
+  version "11.64.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.64.0.tgz#a1d600c6fd1a9d2d8f5278ea43c29ea5ee6152d2"
+  integrity sha512-ntohiQvrd/CfX5ZllHFY3obdBkGmS277GUwVd5ghOK/hSGCCau6nPeJS6WC5yW6FQXXTnX+r5fgCXWFYduvt3Q==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.12.2"
@@ -410,9 +410,9 @@ follow-redirects@^1.15.6:
   integrity sha512-deG2P0JfjrTxl50XGCDyfI97ZGVCxIpfKYmfyrQ54n5FO/0gfIES8C/Psl6kWVDolizcaaxZJnTS0QSMxvnsBQ==
 
 form-data@^4.0.4:
-  version "4.0.4"
-  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.4.tgz#784cdcce0669a9d68e94d11ac4eea98088edd2c4"
-  integrity sha512-KrGhL9Q4zjj0kiUt5OO4Mr/A/jlI2jDYs5eHBpYHPcBEVSiipAvn2Ko2HnPe20rmcuuvMHNdZFp+4IlGTMF0Ow==
+  version "4.0.5"
+  resolved "https://registry.yarnpkg.com/form-data/-/form-data-4.0.5.tgz#b49e48858045ff4cbf6b03e1805cebcad3679053"
+  integrity sha512-8RipRLol37bNs2bhoV67fiTEvdTrbMUYcFTiy3+wuuOnUog2QBHCZWXDRijWQfAkhBj2Uf5UnVaiWwA5vdd82w==
   dependencies:
     asynckit "^0.4.0"
     combined-stream "^1.0.8"
