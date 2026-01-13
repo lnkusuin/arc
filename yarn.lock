@@ -45,9 +45,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.54.0"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.54.0.tgz#ab140b356569601f57ab8727bd7306463841894f"
-  integrity sha512-WGt5J8Ij/rvyqpFexxk3ffKqqbLf9AqrTBbWDk7ApGUzaIs6V+s2s84kAxklFwmMF/vBNGrVdYgbblCOFFezMQ==
+  version "4.55.1"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.55.1.tgz#9563a5419dd2604841bad31a39ccfdd2891690fb"
+  integrity sha512-a8G4wiQxQG2BAvo+gU6XrReRRqj+pLS2NGXKm8io19goR+K8lw269eTrPkSdDTALwMmJp4th2Uh0D8J9bEV1vg==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -242,26 +242,25 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.67.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.67.0.tgz#b98edb1c3214d497e6dbe5de80591f76125e6aa2"
-  integrity sha512-Al6Dm9eBoLfBERl1nkYWLHGMSR98CCTPdsh466k2tjjlSGDAT3B2D/BnNTzpzidW5vYGIoVjRezGvcedV3vxfg==
+  version "11.67.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.67.1.tgz#b755828409db3733023697909d9856ba9d2bd782"
+  integrity sha512-ZBsw3+xDyRCacMkezs2Yete9um+YMtESYHix2YGK17F/DMl8G+AKCpv9RH2zaIH/1iSrfuV7s6o2zOmsrNW8MQ==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.12.2"
-    contentful-sdk-core "^9.0.1"
+    contentful-sdk-core "^9.4.1"
     fast-copy "^3.0.0"
     globals "^15.15.0"
 
-contentful-sdk-core@^9.0.1:
-  version "9.2.1"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.2.1.tgz#1fac6c54a6acf60b3caec654542e4b4a1c6284ba"
-  integrity sha512-Y+Qz2tGYE2ia6o42R8DG4uFSMSLJ6qfAbKQLU6p2+KxsqvbK1Fg60wKVKF+FHMShuCnlg2EwToOvxVsM2N+BrQ==
+contentful-sdk-core@^9.4.1:
+  version "9.4.1"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.4.1.tgz#4379189f98fff0b6902f9f77bfe4029a8b5fba73"
+  integrity sha512-l/DRjiabawlX4fb5WZoClWZfNynSNeN/+xnP5qaNAxnBZYtDMXQcEvRDKb4S7qn7aBehNWKhhajnidbBL8n7HA==
   dependencies:
     fast-copy "^3.0.2"
     lodash "^4.17.21"
-    p-throttle "^6.1.0"
     process "^0.11.10"
-    qs "^6.12.3"
+    qs "^6.14.1"
   optionalDependencies:
     "@rollup/rollup-linux-x64-gnu" "^4.18.0"
 
@@ -672,11 +671,6 @@ once@^1.3.0:
   dependencies:
     wrappy "1"
 
-p-throttle@^6.1.0:
-  version "6.2.0"
-  resolved "https://registry.yarnpkg.com/p-throttle/-/p-throttle-6.2.0.tgz#bc75ff1f128680bec15568cbf7312ae34a9d35ed"
-  integrity sha512-NCKkOVj6PZa6NiTmfvGilDdf6vO1rFCD3KDnkHko8dTOtkpk4cSR/VTAhhLMG9aiQ7/A9HYgEDNmxzf6hxzR3g==
-
 path-is-absolute@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/path-is-absolute/-/path-is-absolute-1.0.1.tgz#174b9268735534ffbc7ace6bf53a5a9e1b5c5f5f"
@@ -710,7 +704,7 @@ proxy-from-env@^1.1.0:
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
-qs@^6.12.3:
+qs@^6.14.1:
   version "6.14.1"
   resolved "https://registry.yarnpkg.com/qs/-/qs-6.14.1.tgz#a41d85b9d3902f31d27861790506294881871159"
   integrity sha512-4EK3+xJl8Ts67nLYNwqw/dsFVnCf+qR7RgXSK9jEEm9unao3njwMDdmsdvoKBKHzxd7tCYz5e5M+SnMjdtXGQQ==
