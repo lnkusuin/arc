@@ -33,9 +33,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.59.0"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.59.0.tgz#9b66b1f9cd95c6624c788f021c756269ffed1552"
-  integrity sha512-3AHmtQq/ppNuUspKAlvA8HtLybkDflkMuLK4DPo77DfthRb71V84/c4MlWJXixZz4uruIH4uaa07IqoAkG64fg==
+  version "4.60.0"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.60.0.tgz#5e5139e11819fa38a052368da79422cb4afcf466"
+  integrity sha512-EtylprDtQPdS5rXvAayrNDYoJhIz1/vzN2fEubo3yLE7tfAw+948dO0g4M0vkTVFhKojnF+n6C8bDNe+gDRdTg==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -222,9 +222,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^11.0.0:
-  version "11.74.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.74.0.tgz#9b3b8f19d3a3bbdeaeb7a911a75e760a76bd14d6"
-  integrity sha512-90uBa2UHeuTeHBWTQ9spISaKXKPxNNvmjrnBcunTH2vElnx9eKLt8BPeCie+YFg4LtZABLBR+m0xTUSlvPdCvQ==
+  version "11.75.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-11.75.0.tgz#d7481bba0c98bd2f3e471f57af0bf1d62fe15e1a"
+  integrity sha512-5j0NDwkdfj5x8qY7Ka6RsVMrjMSdu0clMbABQNqZA1wus9SPVETBQAzdJwHeOAhkLa6avzCcERlr4dN4lU/BOg==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.13.5"
@@ -233,9 +233,9 @@ contentful-management@^11.0.0:
     globals "^15.15.0"
 
 contentful-sdk-core@^9.4.4:
-  version "9.4.4"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.4.4.tgz#ff698f45505183104b4c2859b486c7ee2fcb8607"
-  integrity sha512-61MfMyMU23dqCEOTHaHGys16tK2D0tbDe67GPcl6JkfbCcnhtmgTMLUbBnimW5wQse1mNmwS7lK2BNsz+rlFjA==
+  version "9.4.5"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.4.5.tgz#dcb383dc00630d019b4367d3c7079ca6e4c93d11"
+  integrity sha512-8eGTMO11LXFAiosaiV38bjvW6cjoQFtNE38pNtVilZTXpmGFinClljihH0eriv11Ispd4q82TqtsXMJPYD/C+A==
   dependencies:
     fast-copy "^3.0.2"
     lodash "^4.17.23"
