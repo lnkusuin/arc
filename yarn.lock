@@ -216,9 +216,9 @@ asynckit@^0.4.0:
   integrity sha512-Oei9OH4tRh0YqU3GxhX79dM/mwVgvbZJaSNaRk+bshkj0S5cfHcgYakreBjrHwatXKbz+IoIdYLxrKim2MjW0Q==
 
 axios@^1.15.0:
-  version "1.18.0"
-  resolved "https://registry.yarnpkg.com/axios/-/axios-1.18.0.tgz#8a7f8854af280fcaae063272df2ed9f3837d2398"
-  integrity sha512-E32NzpYKp++W7XRe52rHiXV2ehxmh3wbdgO7MHeFM+vqxLBYHzt0ElkiImtOBxtOmyp0yoC8C6uESVV84Y2/hw==
+  version "1.18.1"
+  resolved "https://registry.yarnpkg.com/axios/-/axios-1.18.1.tgz#d63f9863bcd8938815c86f9e2abd380189d96dfe"
+  integrity sha512-3nTvFlvpn9Zu/RkHUqtc7/+al4UpRW5az71ap5zccp6e8RAYEzhMTecX8Dz1wWDYrPpUoB1HAQEGEAEvUr7S9g==
   dependencies:
     follow-redirects "^1.16.0"
     form-data "^4.0.5"
@@ -330,9 +330,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^12.0.0:
-  version "12.8.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-12.8.0.tgz#fda3242b9630652241e74012f3aff00ecd504480"
-  integrity sha512-lARtEZYn2MYf80hz9nCYiLbJWvg95TTnOWmCZouMZtgNS1273dN27Vaz7weHQ3oSQuk7LeYXaXdGFhFPKlpilw==
+  version "12.10.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-12.10.0.tgz#6a7d9b6b79b9572f0b2e4638ad5aba517d4095e1"
+  integrity sha512-pZKIJGCw9RwMrMxNrdTs5qeglkyMRkwvBWOREt5a0MiTJdLWrBPJ7tPXViNFS29Md8BqGiS3IWPCaXaiff2qjw==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.15.0"
@@ -783,11 +783,12 @@ proxy-from-env@^2.1.0:
   integrity sha512-cJ+oHTW1VAEa8cJslgmUZrc+sjRKgAKl3Zyse6+PV38hZe/V6Z14TbCuXcan9F9ghlz4QrFr2c92TNF82UkYHA==
 
 qs@^6.15.0:
-  version "6.15.2"
-  resolved "https://registry.yarnpkg.com/qs/-/qs-6.15.2.tgz#fd55426d710403ddccc45e0f9eab16db7727ece9"
-  integrity sha512-Rzq0KEyX/w/tEybncDgdkZrJgVUsUMk3xjh3t5bv3S1HTAtg+uOYt72+ZfwiQwKdysThkTBdL/rTi6HDmX9Ddw==
+  version "6.15.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.15.3.tgz#76852132a58ed5c7c0ef67e4441b9bb5d6061b3b"
+  integrity sha512-O9gl3zCl5h5blw1KGUzQKhA5oUXSl8rwUIM5o0S3nCXMliSvy5Dzx7/DJcI+SwgICv+IneSZwhBh1oSyEHA71A==
   dependencies:
-    side-channel "^1.1.0"
+    es-define-property "^1.0.1"
+    side-channel "^1.1.1"
 
 readable-stream@~1.0.31:
   version "1.0.34"
@@ -868,7 +869,7 @@ side-channel-weakmap@^1.0.2:
     object-inspect "^1.13.3"
     side-channel-map "^1.0.1"
 
-side-channel@^1.1.0:
+side-channel@^1.1.1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/side-channel/-/side-channel-1.1.1.tgz#ea02c62e05dc4bea67d4442f0fb71ee192f8e0ab"
   integrity sha512-6x6dK6zJdpTzF4sQeNYxwtvBzf6Eg4GtlesS94HOvTudUeyK2WXAaIfmDgsyslYrRBeFIlsi54AYsFGUuhmvrQ==
