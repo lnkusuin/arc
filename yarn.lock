@@ -33,9 +33,9 @@
     "@jridgewell/sourcemap-codec" "^1.4.10"
 
 "@rollup/rollup-linux-x64-gnu@^4.18.0":
-  version "4.62.2"
-  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.62.2.tgz#5dc818988285e09e88790c6462def72413df2da3"
-  integrity sha512-5BqxR/pshjey51iliyzTD5Xi3EN0aLmQ2lZ3lvefVV9c82BvrLo2/6OT55iifpWBufs6kdwWbuOKS841DrmK9A==
+  version "4.62.3"
+  resolved "https://registry.yarnpkg.com/@rollup/rollup-linux-x64-gnu/-/rollup-linux-x64-gnu-4.62.3.tgz#57ef7f039c4f7de0e913f1f2680385467b86bb15"
+  integrity sha512-V4KtWtQfAFMU7+9/A/VDps/VI8CHd3cYz0L8sgJzz8qK7eY7wI4ruFD82UYIYvW9Z4DtlTfhQcsl4XyPHW5uSg==
 
 "@tsconfig/node10@^1.0.7":
   version "1.0.7"
@@ -330,9 +330,9 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^12.0.0:
-  version "12.10.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-12.10.0.tgz#6a7d9b6b79b9572f0b2e4638ad5aba517d4095e1"
-  integrity sha512-pZKIJGCw9RwMrMxNrdTs5qeglkyMRkwvBWOREt5a0MiTJdLWrBPJ7tPXViNFS29Md8BqGiS3IWPCaXaiff2qjw==
+  version "12.11.0"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-12.11.0.tgz#25442648e002d91d69969853e033d8b0af7c3732"
+  integrity sha512-OxoR3WmAFNRR4tbyoPnBgLB9Sb9/drFru8qAC2Onno+X4vkjsEt+1ObAxrI+gPlncWiM1Y32gS+kFbNgrknBFw==
   dependencies:
     "@contentful/rich-text-types" "^16.6.1"
     axios "^1.15.0"
