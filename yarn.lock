@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@contentful/rich-text-types@^16.6.1":
-  version "16.8.5"
-  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-16.8.5.tgz#832c8b428612f5181908bc1033c6ef9f48f1ce83"
-  integrity sha512-q18RJuJCOuYveGiCIjE5xLCQc5lZ3L2Qgxrlg/H2YEobDFqdtmklazRi1XwEWaK3tMg6yVXBzKKkQfLB4qW14A==
+"@contentful/rich-text-types@^17.0.0":
+  version "17.2.7"
+  resolved "https://registry.yarnpkg.com/@contentful/rich-text-types/-/rich-text-types-17.2.7.tgz#fdb485298c0fb18504277ac75ea8738f0bc6e208"
+  integrity sha512-aIdozk8vk5gsYcallOrwEiL6+GSlMXZorDOmiVELfpbVaXMJPJPlf2CBw3LUzviAqCw0UPQcKHHCwG7SdY7u5w==
 
 "@cspotcode/source-map-support@^0.8.0":
   version "0.8.1"
@@ -330,21 +330,21 @@ concat-map@0.0.1:
   integrity sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==
 
 contentful-management@^12.0.0:
-  version "12.18.0"
-  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-12.18.0.tgz#539462537de48eb0df1cdf6baa42fd64b021b635"
-  integrity sha512-lxKZ711KxM16XZG20bUyinmVy1Rk0fQ5YQ1955oUXY27mnSg11vUeFlNTR641RXB/FD2ghqbXwntLxqjm7G9gA==
+  version "12.18.1"
+  resolved "https://registry.yarnpkg.com/contentful-management/-/contentful-management-12.18.1.tgz#5c41faf26bbacdbaa447438ace330f1818b1812c"
+  integrity sha512-kcjV2jQQ1PSqPnWdrOQGktmKqtiyApxn7b/mAkDGN3n6Ow3WOc8S36MJDNMrKjDNOLWzVPiLue+z7u2PdY/vEw==
   dependencies:
-    "@contentful/rich-text-types" "^16.6.1"
+    "@contentful/rich-text-types" "^17.0.0"
     axios "^1.15.0"
-    contentful-sdk-core "^9.4.4"
+    contentful-sdk-core "^10.0.0"
     fast-copy "^3.0.0"
     globals "^15.15.0"
     process "^0.11.10"
 
-contentful-sdk-core@^9.4.4:
-  version "9.4.5"
-  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-9.4.5.tgz#dcb383dc00630d019b4367d3c7079ca6e4c93d11"
-  integrity sha512-8eGTMO11LXFAiosaiV38bjvW6cjoQFtNE38pNtVilZTXpmGFinClljihH0eriv11Ispd4q82TqtsXMJPYD/C+A==
+contentful-sdk-core@^10.0.0:
+  version "10.0.0"
+  resolved "https://registry.yarnpkg.com/contentful-sdk-core/-/contentful-sdk-core-10.0.0.tgz#26ca06612f9751c889849366f2aa0f6ab12766b1"
+  integrity sha512-4uNgDmAWYqvjQpc/nNQ2GkY/DuyFBivcoPPFFqvT9pWyQqLgxb46gTKdk5sc3YxjLv5tLSDKksRG/OC1uRbktw==
   dependencies:
     fast-copy "^3.0.2"
     lodash "^4.17.23"
