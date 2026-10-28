@@ -14,10 +14,10 @@
   dependencies:
     "@jridgewell/trace-mapping" "0.3.9"
 
-"@isaacs/nonrecursive-glob-match@^1.0.1":
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/@isaacs/nonrecursive-glob-match/-/nonrecursive-glob-match-1.0.1.tgz#1a652412dcfe533c0ec57097e5bbaef00ba1b6ff"
-  integrity sha512-rNKPuTXBacPpn5+CP+S3/UI6uq/0jHZjPpaBLaRE3blpgX+E+ZUIrGfViPvUjUnQG6W1+3OTFUiVRCjTffs2+Q==
+"@isaacs/nonrecursive-glob-match@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@isaacs/nonrecursive-glob-match/-/nonrecursive-glob-match-1.0.2.tgz#aeaab8a9a4bbc3c406f8c12ff674227ea78a6028"
+  integrity sha512-GJPHIgPPtFl+nLhFHyF0zZoFcOFLsZWbHFFzo+Zr+PWDXJbl9hHxb2w+9SiF2fHmLgKaXIpUzQo3SbBBZ9WObw==
 
 "@jridgewell/resolve-uri@^3.0.3":
   version "3.0.7"
@@ -563,9 +563,9 @@ get-proto@^1.0.1:
     es-object-atoms "^1.0.0"
 
 glob@^14.0.0:
-  version "14.0.0"
-  resolved "https://registry.yarnpkg.com/glob/-/glob-14.0.0.tgz#45a5fb9f21154b23078e72d15f51430b143cf51e"
-  integrity sha512-13Y78zdf6sGBFq7IXYL0hyEv1cOwfPGTuU0/9XYPPVTxw1SEXKC/7+oD9uJNVb4jgxdZR1U3BgB95hT5ZDRnvQ==
+  version "14.0.2"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-14.0.2.tgz#17a9838fb6502b6a32d2125fe55bff6a0960e2b7"
+  integrity sha512-vfMgTR2djMHPUchsJMLpZlYQvtjVL+mHpEr5wPpoCbQs2vr/FBNK+3Gnl9Ara1DSs4Aeg4eG9HiADb5/rkY/ZA==
   dependencies:
     minimatch "^11.0.0"
     minipass "^7.1.3"
@@ -672,9 +672,9 @@ lodash@^4.17.23:
   integrity sha512-dMInicTPVE8d1e5otfwmmjlxkZoUpiVLwyeTdUsi/Caj/gfzzblBcCE5sRHV/AsjuCmxWrte2TNGSYuCeCq+0Q==
 
 lru-cache@^11.0.0:
-  version "11.2.6"
-  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.2.6.tgz#356bf8a29e88a7a2945507b31f6429a65a192c58"
-  integrity sha512-ESL2CrkS/2wTPfuend7Zhkzo2u0daGJ/A2VucJOgQ/C48S/zB8MMeMHSGKYpXhIjbPxfuezITkaBH1wqv00DDQ==
+  version "11.5.3"
+  resolved "https://registry.yarnpkg.com/lru-cache/-/lru-cache-11.5.3.tgz#a7767b4034e35269562d2b9da2b185b5df70c421"
+  integrity sha512-U4N8FgzmWxc8k1VH8Kr6lQg18U7Fjvby6wXHVRX/ZZ7IwWbRMgrRbP0Wrb5q5NVinryp4SQampHKdvtecItxUg==
 
 make-error@^1.1.1:
   version "1.3.6"
@@ -699,11 +699,11 @@ mime-types@^2.1.35:
     mime-db "1.52.0"
 
 minimatch@^11.0.0:
-  version "11.0.0"
-  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-11.0.0.tgz#81fb90aeee4eaea39af341352d3661ae04e97bbb"
-  integrity sha512-/4ymzTLZ2FkgyGY+Gp644J3l4OS+mnWGKVH+Y7r8DcOeUreCtc75sE9mCUrbwOJh4pQC3J4pfBo8mulOoaytIA==
+  version "11.0.2"
+  resolved "https://registry.yarnpkg.com/minimatch/-/minimatch-11.0.2.tgz#c51ab06cf560793fa5472fdd70829e088cd1a218"
+  integrity sha512-pWTgz5CN3tjqyZNSK2tePlSmu9IwM41q8yn8Usdqqwe9TIHh+9dEpLLjF4uApsfPEAZY71qtSiA2B2APEr+1Yw==
   dependencies:
-    "@isaacs/nonrecursive-glob-match" "^1.0.1"
+    "@isaacs/nonrecursive-glob-match" "^1.0.2"
     brace-expansion "^5.0.12"
 
 minimatch@^3.0.3:
